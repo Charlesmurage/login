@@ -4,7 +4,9 @@
 -install virtual machine using “python3.6 -m venv --without-pip virtual”
 -install bootstrap using “curl https://bootstrap.pypa.io/get-pip.py | python”
 -install requirements.txt using “pip install -r requirements.txt”
+
 -Now create postgres database and configure credentials in the following sections:
+
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.postgresql',
